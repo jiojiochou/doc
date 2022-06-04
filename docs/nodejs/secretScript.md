@@ -1,3 +1,10 @@
+---
+title: nodejs
+date: 2022-6-3
+author: jiojiochou
+keys:
+ - '83553175@qq.com'
+---
 ## nodejs
 
 ##### fs 模块(文件操作系统):

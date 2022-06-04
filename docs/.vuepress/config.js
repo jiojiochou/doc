@@ -1,16 +1,20 @@
 module.exports = {
-  title: '四喜丸子',
-  description: '百炼成仙',
+  title: '陈醋',
+  description: '你我山巅自相逢',
   base: '/doc/',
   theme: 'reco',
   themeConfig: {
     logo: '/assets/img/logo.jpg',
     //禁用导航栏
     // navbar: false,
+    type: 'blog',
+    authorAvatar: '/assets/img/logo.jpg',
+    noFoundPageByTencent: false,
     nav: [
-      { text: '首页', link: '/' },
+      { text: '首页', link: '/' ,icon: 'reco-home'},
       {
         text: '文档',
+        icon: 'reco-document',
         items: [
           {text: 'typescript',link: '/typescript/Ts'},
           {text: 'vue',link: '/vue/vue3'},
@@ -18,8 +22,7 @@ module.exports = {
           {text: 'vite',link: '/vite/dev'}
         ]
       },
-      {text: '关于',link: '/about/'},
-      { text: 'Gitee', link: 'https://gitee.com/' },
+      { text: 'Github', link: 'https://github.com/' ,icon: 'reco-github'},
     ],
     sidebar: 'auto',
     algolia: {

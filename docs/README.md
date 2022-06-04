@@ -1,6 +1,9 @@
 ---
-title: 个人介绍
-
+home: true
+bgImage: '/assets/img/bg.jpg'
+bgImageStyle: {
+  height: '95vh'
+}
 ---
 ## 👉 我
 
