@@ -1,7 +1,7 @@
 module.exports = {
   title: '四喜丸子',
   description: '百炼成仙',
-  bese: '/docs/',
+  bese: '/doc/',
   themeConfig: {
     logo: '/assets/img/logo.jpg',
     //禁用导航栏
