@@ -1,7 +1,13 @@
+/*
+ * @Descripttion: 
+ * @LastEditors: chen.shixi
+ * @LastEditTime: 2022-06-04 16:51:08
+ */
 module.exports = {
   title: '四喜丸子',
   description: '百炼成仙',
   base: '/doc/',
+  theme: 'reco',
   themeConfig: {
     logo: '/assets/img/logo.jpg',
     //禁用导航栏
