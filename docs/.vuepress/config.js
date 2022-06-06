@@ -11,18 +11,19 @@ module.exports = {
     authorAvatar: '/assets/img/logo.jpg',
     noFoundPageByTencent: false,
     nav: [
-      { text: '首页', link: '/' ,icon: 'reco-home'},
+      { text: '首页', link: '/', icon: 'reco-home' },
       {
         text: '文档',
         icon: 'reco-document',
         items: [
-          {text: 'typescript',link: '/typescript/Ts'},
-          {text: 'vue',link: '/vue/vue3'},
-          {text: 'nodejs',link: '/nodejs/secretScript'},
-          {text: 'vite',link: '/vite/dev'}
+          { text: 'typescript', link: '/typescript/Ts' },
+          { text: 'vue', link: '/vue/vue3' },
+          { text: 'nodejs', link: '/nodejs/secretScript' },
+          { text: 'vite', link: '/vite/dev' },
+          { text: '业务实例', link: '/businessCase' }
         ]
       },
-      { text: 'Github', link: 'https://github.com/' ,icon: 'reco-github'},
+      { text: 'Github', link: 'https://github.com/', icon: 'reco-github' },
     ],
     sidebar: 'auto',
     algolia: {
