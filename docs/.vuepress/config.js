@@ -20,7 +20,7 @@ module.exports = {
           { text: 'vue', link: '/vue/vue3' },
           { text: 'nodejs', link: '/nodejs/secretScript' },
           { text: 'vite', link: '/vite/dev' },
-          { text: '业务实例', link: '/businessCase' }
+          { text: '业务实例', link: '/businessCase/example' }
         ]
       },
       { text: 'Github', link: 'https://github.com/', icon: 'reco-github' },
